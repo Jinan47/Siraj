@@ -56,6 +56,6 @@ Siraj is currently available exclusively for Android users.
 
 ## Support and Feedback
 
-If you encounter any issues or have suggestions for improvement, please feel free to [open an issue](https://github.com/your-username/siraj-quran-app/issues). Your feedback is valuable in making Siraj a better tool for Quranic study.
+If you encounter any issues or have suggestions for improvement, please feel free to [open an issue](https://github.com/Jinan47/Siraj/issues). Your feedback is valuable in making Siraj a better tool for Quranic study.
 
 **Happy Quranic Studying with Siraj!** 🌟
