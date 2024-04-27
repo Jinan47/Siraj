@@ -28,12 +28,12 @@ Siraj is a dedicated Quran study app designed to enhance your understanding of t
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/siraj-quran-app.git
+   git clone https://github.com/Jinan47/Siraj.git
    ```
 
 2. **Navigate to the Project:**
    ```bash
-   cd siraj-quran-app
+   cd Siraj
    ```
 
 3. **Install Dependencies:**
@@ -49,13 +49,5 @@ Siraj is a dedicated Quran study app designed to enhance your understanding of t
 ## Competition - MC2
 
 Siraj has been developed as part of the MC2 competition, showcasing the capabilities of this Flutter project. MC2 provides a platform for developers to demonstrate their skills and innovation.
-
-## Platform Availability
-
-Siraj is currently available exclusively for Android users.
-
-## Support and Feedback
-
-If you encounter any issues or have suggestions for improvement, please feel free to [open an issue](https://github.com/Jinan47/Siraj/issues). Your feedback is valuable in making Siraj a better tool for Quranic study.
 
 **Happy Quranic Studying with Siraj!** 🌟
