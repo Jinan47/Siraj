@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:siraj/widgets/drawer.dart';
 
 class About extends StatelessWidget {
   static const String routeName = "/about";
@@ -7,6 +8,7 @@ class About extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        drawer: const AppDrawer(),
         appBar: AppBar(
           title: const Text('About'),
         ),
@@ -37,9 +39,9 @@ Widget createAboutText(String text) {
     child: SizedBox(
       child: Text(text,
           style: const TextStyle(
-              fontFamily: "Poppins",
-              fontWeight: FontWeight.bold,
-              letterSpacing: 1.2)),
+            fontFamily: "Poppins",
+            fontWeight: FontWeight.bold,
+          )),
     ),
   );
 }
