@@ -16,6 +16,7 @@ dependencies:
   flutter_launcher_icons:
   quran:
   package_info_plus:
+  package_info:
   cupertino_icons:
   google_nav_bar:
 
