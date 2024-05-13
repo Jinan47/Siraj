@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:siraj/screens/main_screen.dart';
+import 'package:siraj/screens/home.dart';
 
-class Signup extends StatefulWidget {
-  const Signup({super.key});
+class SignIn extends StatefulWidget {
+  const SignIn({super.key});
 
   @override
-  _SignupState createState() => _SignupState();
+  _SignInState createState() => _SignInState();
   static const String routeName = "/signup";
 }
 
-class _SignupState extends State<Signup> {
+class _SignInState extends State<SignIn> {
   static String userInput = '';
 
   @override
