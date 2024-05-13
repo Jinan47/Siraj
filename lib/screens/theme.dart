@@ -72,6 +72,19 @@ class AppThemeChooser extends StatelessWidget {
                   ),
           ),
           const Divider(),
+          _buildListTile(
+            title: "Chroma",
+            onPressed: () => controller.setTheme('chroma'),
+            themeData: lightMode
+                ? coffeeTheme
+                : ThemeData.dark().copyWith(
+                    colorScheme: coffeeTheme.colorScheme,
+                    iconTheme: const IconThemeData(
+                      color: Colors.white,
+                    ),
+                  ),
+          ),
+          const Divider(),
         ],
       ),
     );
@@ -85,7 +98,7 @@ class AppThemeChooser extends StatelessWidget {
     return ListTile(
       trailing: ElevatedButton(
         onPressed: onPressed,
-        child: const Text('Button'),
+        child: const Text('Switch'),
       ),
       title: Theme(
         data: themeData,
@@ -100,6 +113,7 @@ List<AppTheme> customThemes = [
   AppTheme(id: 'journal', data: journalTheme, description: 'Journal Theme'),
   AppTheme(id: 'minty', data: mintyTheme, description: 'Minty Theme'),
   AppTheme(id: 'coffee', data: coffeeTheme, description: 'Coffee Theme'),
+  AppTheme(id: 'vanilla', data: vanilla, description: 'Vanilla Theme'),
   // AppTheme(id: 'thunder', data: thunderTheme, description: 'Thunder Theme'),
   // AppTheme(id: 'default-dark', data: vanilladark, description: 'Default Dark Theme'),
   // AppTheme(id: 'ocean', data: oceanTheme, description: 'Ocean Theme'),
@@ -107,7 +121,7 @@ List<AppTheme> customThemes = [
   // AppTheme(id: 'banana', data: bananaTheme, description: 'Banana Theme'),
   // AppTheme(id: 'moon', data: moonTheme, description: 'Moon Theme'),
   // AppTheme(id: 'neon', data: neonTheme, description: 'Neon Theme'),
-  // AppTheme(id: 'chroma', data: chromaTheme, description: 'Chroma Theme'),
+  AppTheme(id: 'chroma', data: chromaTheme, description: 'Chroma Theme'),
   // AppTheme(id: 'azure', data: azureTheme, description: 'Azure Theme'),
   // AppTheme(id: 'mani', data: maniTheme, description: 'Mani Theme'),
 ];
