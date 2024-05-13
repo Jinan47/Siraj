@@ -1,16 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:theme_provider/theme_provider.dart';
-import 'package:siraj/screens/home.dart';
+import 'package:siraj/screens/classifications.dart';
 import 'package:siraj/screens/theme.dart';
 import 'package:siraj/screens/about.dart';
-import 'package:siraj/screens/main_screen.dart';
+import 'package:siraj/screens/home.dart';
+import 'package:siraj/screens/signup.dart';
+import 'package:siraj/screens/settings.dart';
+import 'package:siraj/screens/numbers.dart';
+import 'package:siraj/screens/statistics.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  bool isUserSignedIn = prefs.getString('Name') != null ? true : false;
+  runApp(MyApp(isUserSignedIn: isUserSignedIn));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key, required this.isUserSignedIn});
+  final bool isUserSignedIn;
 
   @override
   Widget build(BuildContext context) {
@@ -37,14 +45,16 @@ class MyApp extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          home: const Main(),
-          initialRoute: Main.routeName,
+          initialRoute: isUserSignedIn ? Home.routeName : SignIn.routeName,
           routes: {
-            Home.routeName: (context) => const Home(),
+            VersesClassify.routeName: (context) => const VersesClassify(),
             AppThemeChooser.routeName: (context) => const AppThemeChooser(),
             About.routeName: (context) => const About(),
-            Main.routeName: (context) => const Main(),
-            // LoginScrn.routeName: (context) => const LoginScrn(),
+            Home.routeName: (context) => const Home(),
+            SignIn.routeName: (context) => const SignIn(),
+            Settings.routeName: (context) => const Settings(),
+            Statistics.routeName: (context) => const Statistics(),
+            Numbers.routeName: (context) => const Numbers(),
           },
         ),
       ),
