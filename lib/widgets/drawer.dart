@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:siraj/screens/home.dart';
 import 'package:siraj/screens/theme.dart';
 import 'package:siraj/screens/about.dart';
+import 'package:siraj/screens/signup.dart';
+import 'package:siraj/screens/home.dart';
 
 class ScreenEntries {
   final String title;
@@ -37,6 +38,11 @@ class _AppDrawerState extends State<AppDrawer> {
       title: "About",
       routeName: About.routeName,
       icon: Icon(Icons.info),
+    ),
+    ScreenEntries(
+      title: "Sign Out",
+      routeName: SignIn.routeName,
+      icon: Icon(Icons.logout),
     ),
   ];
 
