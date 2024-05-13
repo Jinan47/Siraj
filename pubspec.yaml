@@ -19,6 +19,7 @@ dependencies:
   package_info:
   cupertino_icons:
   google_nav_bar:
+  pie_chart:
 
 dev_dependencies:
   flutter_test:
