@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:siraj/verses%20routes/screens.dart';
+import 'package:siraj/routes/clasf_verses.dart';
 
 class VersesClassify extends StatelessWidget {
-  static const String routeName = "/home";
+  static const String routeName = "/classifyhome";
   const VersesClassify({super.key});
 
   @override
