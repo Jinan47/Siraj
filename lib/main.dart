@@ -6,7 +6,7 @@ import 'package:siraj/screens/about.dart';
 import 'package:siraj/screens/home.dart';
 import 'package:siraj/screens/signup.dart';
 import 'package:siraj/screens/settings.dart';
-import 'package:siraj/screens/numbers.dart';
+import 'package:siraj/screens/numshome.dart';
 import 'package:siraj/screens/statistics.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
             SignIn.routeName: (context) => const SignIn(),
             Settings.routeName: (context) => const Settings(),
             Statistics.routeName: (context) => const Statistics(),
-            Numbers.routeName: (context) => const Numbers(),
+            NumbersHome.routeName: (context) => const NumbersHome(),
           },
         ),
       ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:siraj/screens/classifications.dart';
 import 'package:siraj/screens/statistics.dart';
-import 'package:siraj/screens/numbers.dart';
+import 'package:siraj/screens/numshome.dart';
 import 'package:siraj/widgets/drawer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -80,8 +80,8 @@ class Home extends StatelessWidget {
                     Row(
                       children: [
                         GestureDetector(
-                          onTap: () =>
-                              Navigator.pushNamed(context, Numbers.routeName),
+                          onTap: () => Navigator.pushNamed(
+                              context, NumbersHome.routeName),
                           child: Container(
                             width: 150,
                             height: 150,
