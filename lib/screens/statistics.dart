@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:siraj/piecharts%20routes/piecharts.dart';
+import 'package:siraj/routes/piecharts.dart';
 
 class Statistics extends StatelessWidget {
   static const String routeName = "/statistics";
