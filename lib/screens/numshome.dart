@@ -68,9 +68,9 @@ class NumbersHome extends StatelessWidget {
       '/number_five': (context) => const Number5(),
       '/number_six': (context) => const Number6(),
       '/number_seven': (context) => const Number7(),
-      // '/number_eight': (context) => const Number8(),
-      // '/number_nine': (context) => const Number9(),
-      // '/number_ten': (context) => const Number10(),
+      '/number_eight': (context) => const Number8(),
+      '/number_nine': (context) => const Number9(),
+      '/number_ten': (context) => const Number10(),
     };
 
     WidgetBuilder? builder = routes[routeName];

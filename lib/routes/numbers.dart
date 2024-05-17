@@ -859,3 +859,186 @@ class Number7 extends StatelessWidget {
         ])));
   }
 }
+
+class Number8 extends StatelessWidget {
+  static const String routeName = "/number_eight";
+  const Number8({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(),
+        body: SizedBox(
+            child: ListView(children: [
+          const SizedBox(height: 20),
+          const Center(
+            child: Text("٥ مرات"),
+          ),
+          const SizedBox(height: 20),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(6, 143, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(6)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(39, 6, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(39)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(69, 17, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(69)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(28, 27, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(28)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(69, 7, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(69)),
+          ),
+        ])));
+  }
+}
+
+class Number9 extends StatelessWidget {
+  static const String routeName = "/number_nine";
+  const Number9({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(),
+        body: SizedBox(
+            child: ListView(children: [
+          const SizedBox(height: 20),
+          const Center(
+            child: Text("٤ مرات"),
+          ),
+          const SizedBox(height: 20),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(67, 48, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(67)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(74, 30, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(74)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(17, 101, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(17)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(27, 12, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(27)),
+          ),
+        ])));
+  }
+}
+
+class Number10 extends StatelessWidget {
+  static const String routeName = "/number_ten";
+  const Number10({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(),
+        body: SizedBox(
+            child: ListView(children: [
+          const SizedBox(height: 20),
+          const Center(
+            child: Text("٤ مرات"),
+          ),
+          const SizedBox(height: 20),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(2, 60, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(2)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(2, 196, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(2)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(5, 89, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(5)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(7, 160, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(7)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(2, 234, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(2)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(6, 160, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(6)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(7, 142, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(7)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(11, 13, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(11)),
+          ),
+          const Divider(),
+          ListTile(
+            title: Text(getVerse(89, 2, verseEndSymbol: true),
+                style: const TextStyle(fontWeight: FontWeight.bold),
+                textDirection: TextDirection.rtl),
+            leading: Text(getSurahNameArabic(89)),
+          ),
+        ])));
+  }
+}
