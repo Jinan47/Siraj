@@ -14,15 +14,6 @@ Siraj is a dedicated Quran study app designed to enhance your understanding of t
 
 ### Settings Modification
 - Customize the app and widget themes to suit your preferences.
-- Personalize your study experience with adjustable settings.
-
-### Account Customization
-- Create a personalized account for a seamless experience.
-- Access your study history and preferences on multiple devices.
-
-### Authentication Options
-- Log in using your Google account for quick and secure access.
-- Alternatively, use email and password login for flexibility.
 
 ## Getting Started
 
