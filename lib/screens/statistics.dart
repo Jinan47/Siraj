@@ -10,7 +10,7 @@ class Statistics extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Statistics"),
+        title: const Text("مقارنات الآيات"),
       ),
       body: ListView(
         children: [

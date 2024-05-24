@@ -83,7 +83,7 @@ class Home extends StatelessWidget {
                           onTap: () => Navigator.pushNamed(
                               context, NumbersHome.routeName),
                           child: Container(
-                            width: 150,
+                            width: 320,
                             height: 150,
                             decoration: BoxDecoration(
                               color: Theme.of(context).colorScheme.secondary,
@@ -92,28 +92,6 @@ class Home extends StatelessWidget {
                             child: const Center(
                               child: Text(
                                 'الأرقام في القرآن',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 20,
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                        const SizedBox(width: 20),
-                        GestureDetector(
-                          onTap: () => Navigator.pushNamed(
-                              context, Statistics.routeName),
-                          child: Container(
-                            width: 150,
-                            height: 150,
-                            decoration: BoxDecoration(
-                              color: Theme.of(context).colorScheme.primary,
-                              borderRadius: BorderRadius.circular(20),
-                            ),
-                            child: const Center(
-                              child: Text(
-                                'no title',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
